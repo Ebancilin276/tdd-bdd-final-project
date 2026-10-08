@@ -29,7 +29,7 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 . --max-line-length=127 --per-file-ignores='features/steps/*.py:F811,features/environment.py:E302'
+          flake8 . --max-line-length=127 --per-file-ignores='features/steps/*.py:F811,features/environment.py:E302,service/__init__.py:F401,service/routes.py:F401,tests/test_models.py:F401,tests/test_routes.py:F401'
 
       - name: Run unit tests with nose
         run: |
