@@ -1,0 +1,19 @@
+# Core
+Flask==2.3.3
+Werkzeug==2.3.7
+flask-sqlalchemy==3.1.1
+SQLAlchemy==2.0.21
+
+# Testing
+pytest==7.4.3
+factory-boy==3.3.0
+Faker==19.13.0
+coverage==7.3.2
+
+# BDD
+behave==1.2.6
+requests==2.31.0
+
+# Utilities
+gunicorn==21.2.0
+python-dotenv==1.0.0
